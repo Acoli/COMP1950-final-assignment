@@ -1,0 +1,120 @@
+/*
+	Author: derek moore
+	Purpose: (!!!)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+general settings
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+*{
+
+}
+body {
+
+}
+#wrapper_body{
+width: 95%;
+margin:5px auto;
+}
+h1, h2, h3, h4, h5, h6{
+font-family:"Ubuntu", sans-serif;
+margin:0;
+padding:0;
+color: #1B3D60;
+}
+p, li, a, td, footer, span, th, table{
+font-family:'Droid Serif', serif;
+color: #476C92;
+margin:0;
+padding:0;
+}
+a:link{
+
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a:active{
+
+}
+header, div.content, div.accent, div.breadcrumb, main{
+border-radius:10px;
+padding:0.5em;
+}
+
+/* temporary - comment out after use */
+/* table, div {
+border:1px solid black;
+} */
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+color settings
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.cac1{
+color: #1B3D60;
+}
+.cac2{
+color: #B4CDE8;
+}
+/* - - - - - - - - */
+.bac1{
+background-color: #6A8DB2;
+}
+.bac2{
+background-color: #B4CDE8;
+}
+.bac3{
+background-color: #3B6188;
+}
+
+
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+header
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	header {
+	padding: 1em;
+	margin: 0.5em 0;
+	}
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+nav
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	nav{
+	
+	}
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+main
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	main{
+	
+	}
+	main div.accent{
+	padding: 1em;
+	}
+	main div div.content{
+	min-height: 10em;
+	}
+	main div div.breadcrumb{
+	
+	}
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+footer
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	footer{
+	text-align:center;
+	}
+	footer span#copyright{
+	
+	}
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+colour
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
