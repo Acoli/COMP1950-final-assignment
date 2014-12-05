@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	// CSS switch
 	$('#original').click(function(){
-		$('#main_stylesheet_handle').attr('href', 'css/style.css');
+		$('#main_stylesheet_handle').attr('href', 'css/index.css');
 	});
 
 	$('#projector').click(function(){
