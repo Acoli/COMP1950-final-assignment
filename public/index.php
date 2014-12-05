@@ -16,7 +16,7 @@
 				<?php include 'includes/header.inc';?>
 			</header>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-			<nav>	
+			<nav class="bac1">	
 				<?php include 'includes/nav.inc';?>
 			</nav>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->		
@@ -35,5 +35,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script src="js/footer_scripts.js"></script>
+		<script src="js/jquery.pageslide.min.js"></script>
+		<script src="js/functions.js"></script>
 	</body>
 </html>
