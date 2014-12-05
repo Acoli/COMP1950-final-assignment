@@ -1,7 +1,10 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 900px){
 	body{
 		min-width: 310px;
-		background: red;
+	}
+	nav.bac1{
+	background:none;
+	position:fixed;
 	}
 	.open{
 		background: url('../img/menu.png');
