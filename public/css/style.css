@@ -17,6 +17,12 @@ body {
 width: 95%;
 margin:5px auto;
 }
+ul{
+padding:0;
+}
+ul ul{
+padding:0 1em;
+}
 h1, h2, h3, h4, h5, h6{
 font-family:"Ubuntu", sans-serif;
 margin:0;
