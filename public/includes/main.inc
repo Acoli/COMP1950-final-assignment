@@ -4,5 +4,7 @@
 	</div>
 	<div class="content bac2">
 		<p>content goes here</p>
+		<button id="original">Original</button>
+		<button id="projector">Projector</button>
 	</div>
 </div>

@@ -2,7 +2,7 @@ $(document).ready(function(){
 	// Page slider
 	$(".open").pageslide();
 
-	// Accodion
+	// Accordion
 	$('#mobile_nav ul').hide();
 
 	$("#mobile_nav > li").click(function(){
@@ -14,5 +14,17 @@ $(document).ready(function(){
 		$(this).find(".tertiary").slideToggle(300);
 	});
 
-	
+	// CSS switch
+	$('#original').click(function(){
+		$('#main_stylesheet_handle').attr('href', 'css/style.css');
+	});
+
+	$('#projector').click(function(){
+		$('#main_stylesheet_handle').attr('href', 'css/projector.css');
+	});
+
+
+	/*
+		DONT FORGET TO CACHE THE DOM
+	*/
 });
