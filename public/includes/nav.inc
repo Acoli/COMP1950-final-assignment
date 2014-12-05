@@ -11,6 +11,6 @@
 			</li>
 		</ul>
 	</li>
-	<li><a href="#" data-target="content/resources.inc">Resources</a></li>
-	<li><a href="#">Quiz</a></li>
+	<li><a href="#" data-target="content/resources.inc">resources</a></li>
+	<li><a href="#">quiz</a></li>
 </ul>

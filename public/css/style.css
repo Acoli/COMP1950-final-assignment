@@ -25,7 +25,7 @@ color: #1B3D60;
 }
 p, li, a, td, footer, span, th, table{
 font-family:'Droid Serif', serif;
-color: #476C92;
+color: #1B3D60;
 margin:0;
 padding:0;
 }
@@ -41,9 +41,8 @@ a:hover{
 a:active{
 
 }
-header, div.content, div.accent, div.breadcrumb, main{
+header, div.content, div.accent, div.breadcrumb, nav, main{
 border-radius:10px;
-padding:0.5em;
 }
 
 /* temporary - comment out after use */
@@ -90,18 +89,22 @@ nav
 	a.open{
 	display:fixed;
 	}
+	div#pageslide ul li {
+	list-style-type:none;
+	}
 /*
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 main
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 	main{
-	
+	margin:0.5em 0;
 	}
 	main div.accent{
 	padding: 1em;
 	}
 	main div div.content{
 	min-height: 10em;
+	padding:0.5em;
 	}
 	main div div.breadcrumb{
 	
