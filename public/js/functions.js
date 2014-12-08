@@ -1,26 +1,41 @@
 $(document).ready(function(){
+
 	// Page slider
-	$(".open").pageslide();
+	var $pageslide = $(".open");
+
+	$pageslide.pageslide();
+	$(window).resize(function() {
+		$.pageslide.close();
+	});
 
 	// Accordion
-	$('#mobile_nav ul').hide();
+	var $nonPrimaryNav = $('#mobile_nav ul');
+	var $secondaryNav = $("#mobile_nav > li");
+	var $tertiaryNav = $(".secondary > li");
 
-	$("#mobile_nav > li").click(function(){
+
+	$nonPrimaryNav.hide();
+
+	$secondaryNav.click(function(){
 		$(this).find(".secondary").slideToggle(300);
 	});
 
-	$(".secondary > li").click(function(e){
+	$tertiaryNav.click(function(e){
 		e.stopPropagation();
 		$(this).find(".tertiary").slideToggle(300);
 	});
 
 	// CSS switch
-	$('#original').click(function(){
-		$('#main_stylesheet_handle').attr('href', 'css/index.css');
+	var $originalStyle = $('#original');
+	var $projectorStyle = $('#projector');
+	var $stylesheetHandle = $('#main_stylesheet_handle');
+
+	$originalStyle.click(function(){
+		$stylesheetHandle.attr('href', 'css/index.css');
 	});
 
-	$('#projector').click(function(){
-		$('#main_stylesheet_handle').attr('href', 'css/projector.css');
+	$projectorStyle.click(function(){
+		$stylesheetHandle.attr('href', 'css/projector.css');
 	});
 
 
