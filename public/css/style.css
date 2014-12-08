@@ -115,6 +115,13 @@ main
 	main div div.breadcrumb{
 	
 	}
+	
+	/* content block */
+	div.contblock{
+	  border: 1px solid black;
+	  background-color: #6A8DB2;
+	  border-radius: 5px;
+	  }
 /*
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 footer
