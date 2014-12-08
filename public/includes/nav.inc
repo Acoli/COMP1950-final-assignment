@@ -1,9 +1,9 @@
 <a href="#mobile_nav" class="open"></a>
 <ul id="mobile_nav">
-	<li><a href="#" data-target="content/home.inc">home</a></li>
-	<li><a href="#">lectures</a>
+	<li><a href="content/home.inc" data-target="content/home.inc">home</a></li>
+	<li><a href="lectures.inc">lectures</a>
 		<ul class="secondary">
-			<li><a href="#" data-target="content/lectures/01.inc">01</a>
+			<li><a href="lecture.inc" data-target="content/lectures/01.inc">01</a>
 				<ul class="tertiary">
 					<li>test</li>
 					<li>test</li>

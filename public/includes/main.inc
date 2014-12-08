@@ -3,7 +3,8 @@
 		<p>I'm a breadcrumb! > oh yeah you're here</p></p>
 	</div>
 	<div class="content bac2">
-		<p>content goes here</p>
+		<h3>welcome to class!</h3>
+		<p>you're so welcome in class</p>
 		<button id="original">Original</button>
 		<button id="projector">Projector</button>
 	</div>
