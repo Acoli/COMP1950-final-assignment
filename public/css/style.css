@@ -136,6 +136,24 @@ footer
 	footer span#copyright{
 	
 	}
+
+	/*form styles*/
+
+	footer td{
+		padding: 5px 10px;
+    	text-align: right;
+	}
+
+	footer td input,
+	footer textarea{
+		float: left;
+    	width: 100%;
+	}
+
+	footer button{
+		width: 33%;
+		margin: 0 auto
+	}
 /*
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 colour

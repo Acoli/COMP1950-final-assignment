@@ -37,9 +37,4 @@ $(document).ready(function(){
 	$projectorStyle.click(function(){
 		$stylesheetHandle.attr('href', 'css/projector.css');
 	});
-
-
-	/*
-		DONT FORGET TO CACHE THE DOM
-	*/
 });
