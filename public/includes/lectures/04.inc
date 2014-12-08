@@ -1,5 +1,3 @@
-<h3>lecture 01</h3>
-
 <div id="maincont">
 		<h1>lecture four: css layouts</h1>
 		<h2>Agenda</h2>
@@ -330,4 +328,4 @@
 		<div id="footer">
 			<a href="#top">Top of Page</a> | <a href="/comp1950/">Home</a>
 		</div>
-	</div>
+</div>

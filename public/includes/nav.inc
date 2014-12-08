@@ -1,9 +1,10 @@
 <a href="#mobile_nav" class="open"></a>
 <ul id="mobile_nav">
-	<li><a href="index.php" data-target="content/home.inc">home</a></li>
-	<li><a href="lectures.inc">lectures</a>
+	<h2>comp 1920</h2>
+	<li><a href="/comp1950-final/public/index.php">home</a></li>
+	<li><a href="/comp1950-final/public/content/lectures/lectures.inc">lectures</a>
 		<ul class="secondary">
-			<li><a href="lecture.inc" data-target="content/lectures/01.inc">01</a>
+			<li><a href="/comp1950-final/public/content/lectures/04.php" data-target="/comp1950-final/public/includes/lectures/04.inc">04</a>
 				<ul class="tertiary">
 					<li>test</li>
 					<li>test</li>

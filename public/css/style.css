@@ -1,196 +1,84 @@
-/*
-	Author: derek moore
-	Purpose: (!!!)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+div#wrapper_body {
+  width: 95%;
+  margin: 5px auto; }
 
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-general settings
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-*{
+ul {
+  padding: 0; }
 
-}
-body {
+ul ul {
+  padding: 0 1em; }
 
-}
-#wrapper_body{
-width: 95%;
-margin:5px auto;
-}
-ul{
-padding:0;
-}
-ul ul{
-padding:0 1em;
-}
-h1, h2, h3, h4, h5, h6{
-font-family:"Ubuntu", sans-serif;
-margin:0;
-padding:0;
-color: #1B3D60;
-}
-p, li, a, td, footer, span, th, table{
-font-family:'Droid Serif', serif;
-color: #1B3D60;
-margin:0;
-padding:0;
-}
-a:link{
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif;
+  color: #1B3D60;
+  margin: 0;
+  padding: 0; }
 
-}
-a:visited{
+p, li, a, td, footer, span, th, table {
+  font-family: "Droid Serif", serif;
+  color: #1B3D60;
+  margin: 0;
+  padding: 0; }
 
-}
-a:hover{
+header, div.content, div.accent, div.breadcrumb, nav, main {
+  border-radius: 3px; }
 
-}
-a:active{
+.cac1 {
+  color: #1B3D60; }
 
-}
-header, div.content, div.accent, div.breadcrumb, nav, main{
-border-radius:3px;
-}
+.cac2 {
+  color: #B4CDE8; }
 
-/* temporary - comment out after use */
-/* table, div {
-border:1px solid black;
-} */
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-color settings
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-.cac1{
-color: #1B3D60;
-}
-.cac2{
-color: #B4CDE8;
-}
 /* - - - - - - - - */
-.bac1{
-background-color: #6A8DB2;
-}
-.bac2{
-background-color: #B4CDE8;
-}
-.bac3{
-background-color: #3B6188;
-}
+.bac1 {
+  background-color: #6A8DB2; }
 
+.bac2 {
+  background-color: #B4CDE8; }
 
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-header
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-	header {
-	padding: 1em;
-	margin: 0.5em 0;
-	}
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-nav
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-	nav{
-	
-	}
-	a.open{
-	display:fixed;
-	}
-	div#pageslide ul li {
-	list-style-type:none;
-	}
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-main
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-	main{
-	margin:0.5em 0;
-	}
-	main div.accent{
-	padding: 1em;
-	}
-	main div div.content{
-	min-height: 10em;
-	padding:0.5em;
-	}
-	main div div.breadcrumb{
-	
-	}
-	
-	/* content block */
-	div.contblock{
-	  border: 1px solid #6A8DB2;
-	  background-color: #6A8DB2;
-	  border-radius: 5px;
-	  padding: 0.5em;
-	  }
-	div.contblock h2{
-	  margin: 0.5em;
-	  }
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-footer
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-	footer{
-	text-align:center;
-	}
-	footer span#copyright{
-	
-	}
+.bac3 {
+  background-color: #3B6188; }
 
-	/*form styles*/
+header {
+  padding: 1em;
+  margin: 0.5em 0; }
 
-	footer td{
-		padding: 5px 10px;
-    	text-align: right;
-	}
+main {
+  margin: 0.5em 0; }
 
-	footer td input,
-	footer textarea{
-		float: left;
-    	width: 100%;
-	}
+main div.accent {
+  padding: 1em; }
 
-	footer button{
-		width: 33%;
-		margin: 0 auto
-	}
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-colour
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+main div div.content {
+  min-height: 10em;
+  padding: 0.5em; }
 
+/* content block */
+div.contblock {
+  border: 1px solid #6A8DB2;
+  background-color: #6A8DB2;
+  border-radius: 5px;
+  padding: 0.5em; }
 
-/*
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Media Queries
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/* Smartphones (portrait and landscape) ----------- */  
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
-  
-}  
-  
-/* Smartphones (landscape) ----------- */  
-@media only screen and (min-width : 321px) {  
+div.contblock h2 {
+  margin: 0.5em; }
 
-}  
-  
-/* Smartphones (portrait) ----------- */  
-@media only screen and (max-width : 320px) {  
+footer {
+  text-align: center; }
 
-}  
-  
-/* iPads (portrait and landscape) ----------- */  
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
+footer span#copyright {
+  /*form styles */ }
 
-}
+footer td {
+  padding: 5px 10px;
+  text-align: right; }
 
-/* Laptops and desktops */
-@media only screen and (min-device-width: 1024px){
-	header,
-	nav,
-	main,
-	footer{
-		width: 960px;
-		margin: 0 auto;
-	}
-}
+footer td input, footer textarea {
+  float: left;
+  width: 100%; }
+
+footer button {
+  width: 33%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
