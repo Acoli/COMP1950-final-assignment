@@ -48,7 +48,7 @@ a:active{
 
 }
 header, div.content, div.accent, div.breadcrumb, nav, main{
-border-radius:10px;
+border-radius:3px;
 }
 
 /* temporary - comment out after use */
@@ -159,3 +159,38 @@ footer
 colour
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+
+/*
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Media Queries
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+  
+}  
+  
+/* Smartphones (landscape) ----------- */  
+@media only screen and (min-width : 321px) {  
+
+}  
+  
+/* Smartphones (portrait) ----------- */  
+@media only screen and (max-width : 320px) {  
+
+}  
+  
+/* iPads (portrait and landscape) ----------- */  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
+
+}
+
+/* Laptops and desktops */
+@media only screen and (min-device-width: 1024px){
+	header,
+	nav,
+	main,
+	footer{
+		width: 960px;
+		margin: 0 auto;
+	}
+}
