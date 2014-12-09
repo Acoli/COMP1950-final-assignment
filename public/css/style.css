@@ -11,7 +11,7 @@ ul ul {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif;
   color: #1B3D60;
-  margin: 0;
+  margin: 0.5em 0;
   padding: 0; }
 
 p, li, a, td, footer, span, th, table {
@@ -55,13 +55,13 @@ main div div.content {
 
 /* content block */
 div.contblock {
-  border: 1px solid #6A8DB2;
-  background-color: #6A8DB2;
+  border: 4px solid #6A8DB2;
   border-radius: 5px;
   padding: 0.5em; }
-
-div.contblock h2 {
-  margin: 0.5em; }
+  div.contblock li {
+    list-style-type: none; }
+  div.contblock a:link, div.contblock a:visited {
+    color: #164DC2; }
 
 footer {
   text-align: center; }

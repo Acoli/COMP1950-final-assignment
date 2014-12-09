@@ -15,7 +15,7 @@ ul ul
 h1, h2, h3, h4, h5, h6
 	font-family: $fs-h
 	color: $fc-d
-	margin: 0
+	margin: 0.5em 0
 	padding: 0
 p, li, a, td, footer, span, th, table
 	font-family: $fs-p
@@ -100,13 +100,16 @@ main div div.breadcrumb
 
 /* content block */
 div.contblock
-	border: 1px solid #6A8DB2
-	background-color: #6A8DB2
+	border: 4px solid #6A8DB2
 	border-radius: 5px
 	padding: 0.5em
+	li
+		list-style-type: none
+	a:link, a:visited
+		color: #164DC2
 
-div.contblock h2
-	margin: 0.5em
+div#maincont h2
+	//margin: 0.5em 0
 	  
 	  
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
