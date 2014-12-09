@@ -55,4 +55,22 @@
 		width: 960px;
 		margin: 0 auto;
 	}
+
+	/* CSS switch buttons styling*/
+	#css_SwitchHolder{
+		background: rgba(6, 6, 6, 0.5);
+		border: 1px solid;
+		border-radius: 0 3px 3px 0;
+	    left: 0;
+	    position: fixed;
+	    top: 100px;
+	}
+
+	#original,
+	#projector{
+		cursor: pointer;
+	    height: 32px;
+	    margin: 10px 15px;
+	    width: 32px;
+	}
 }
