@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1000px){
 	body{
-		
+		min-width: 310px;
 	}
 	nav.bac1{
 	background:none;
@@ -27,24 +27,24 @@
 }
 
 /* Smartphones (portrait and landscape) ----------- */  
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
   
-}   */
+}  
   
 /* Smartphones (landscape) ----------- */  
-/* @media only screen and (min-width : 321px) {  
+@media only screen and (min-width : 321px) {  
 
-}  */ 
+}  
   
 /* Smartphones (portrait) ----------- */  
-/* @media only screen and (max-width : 320px) {  
+@media only screen and (max-width : 320px) {  
 
-}  */ 
+}  
   
 /* iPads (portrait and landscape) ----------- */  
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
 
-} */
+}
 
 /* hide for mobile style */
 @media only screen and (max-width:1090px){
@@ -60,7 +60,7 @@
 	nav,
 	main,
 	footer{
-		/*width: 960px;*/
+		width: 960px;
 		margin: 0 auto;
 	}
 
