@@ -48,14 +48,34 @@ table {
 }
 
 /* Styles start here */
+.breadcrumb, .no-desktop,
+footer{
+	display: none;
+}
+
+*{
+	color: #000;
+}
 
 body{
-	background: red;
+	background: rgba(59, 96, 136, 0.56);
 }
+
 #wrapper_body{
-	background: green;
-	width: 960px;
+	background: rgba(106, 141, 179, 0.6);
+	width: 85%;
 	margin: 0 auto;
+}
+
+h1, h2, h3{
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+p{
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	margin: 25px 0 0;
 }
 
 /* CSS switch buttons styling*/
@@ -74,4 +94,54 @@ body{
     height: 32px;
     margin: 10px 15px;
     width: 32px;
+}
+
+/* Header styles */
+header h1{
+	font-size: 2.5em;
+	padding: 20px 20px 5px;
+	text-decoration: none;
+}
+
+header h2{
+	font-size: 1.25em;
+	padding: 0 40px;
+	text-decoration: none;
+}
+
+/*	nav styles */
+nav{
+    left: 75%;
+    position: relative;
+    top: -50px;
+    width: 397px;
+}
+
+nav .secondary{
+	background:rgba(227, 227, 227, 0.85);
+    border-radius: 2px;
+    position: absolute;
+}
+nav .secondary li{
+	padding: 5px 0;
+}
+
+nav .tertiary li{
+	border-top: 1px solid #cbcbcb;
+    display: block;
+    margin: 5px 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	padding: 5px 25px;
+	color: #000;
+}
+
+/* main Styles */
+main{
+	padding: 20px;
 }
