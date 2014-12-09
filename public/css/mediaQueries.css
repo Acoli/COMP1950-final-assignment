@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1000px){
 	body{
-		
+		min-width: 310px;
 	}
 	nav.bac1{
 	background:none;
@@ -27,32 +27,44 @@
 }
 
 /* Smartphones (portrait and landscape) ----------- */  
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
   
-}   */
+}  
   
 /* Smartphones (landscape) ----------- */  
-/* @media only screen and (min-width : 321px) {  
+@media only screen and (min-width : 321px) {  
 
-}  */ 
+}  
   
 /* Smartphones (portrait) ----------- */  
-/* @media only screen and (max-width : 320px) {  
+@media only screen and (max-width : 320px) {  
 
-}  */ 
+}  
   
 /* iPads (portrait and landscape) ----------- */  
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {  
 
-} */
+}
+
+/* hide for mobile style */
+@media only screen and (max-width:1090px){
+	.no-mobile{
+		display: none;
+	}
+}
 
 /* Laptops and desktops */
+<<<<<<< HEAD
 @media only screen and (min-width: 1024px){
+=======
+@media only screen and (min-device-width: 1024px){
+
+>>>>>>> origin/master
 	header,
 	nav,
 	main,
 	footer{
-		/*width: 960px;*/
+		width: 960px;
 		margin: 0 auto;
 	}
 
@@ -63,7 +75,7 @@
 		border-radius: 0 3px 3px 0;
 	    left: 0;
 	    position: fixed;
-	    bottom: 100px;
+	    top: 100px;
 	}
 
 	#original,
@@ -72,5 +84,49 @@
 	    height: 32px;
 	    margin: 10px 15px;
 	    width: 32px;
+	}
+/* DELETE IF NOT NEEDED */
+	.no-desktop{
+		display: none;
+	}
+	/*	Nav styles 	*/
+	nav{
+		background: none repeat scroll 0 0 red;
+	    left: 275px;
+	    position: relative;
+	    top: -50px;
+	    width: 397px;
+	}
+
+	nav .secondary{
+		background:rgba(227, 227, 227, 0.85);
+	    border-radius: 2px;
+	    position: absolute;
+	}
+	nav .secondary li{
+		padding: 5px 0;
+	}
+
+	nav .tertiary{
+
+	}
+
+	nav .tertiary li{
+		border-top: 1px solid #cbcbcb;
+	    display: block;
+	    margin: 5px 0;
+	}
+
+	nav li{
+		display: inline-block;
+	}
+
+	nav a{
+		padding: 5px 25px;
+	}
+
+	/*	main styles	*/
+	main{
+		margin-top: -40px;
 	}
 }
