@@ -55,11 +55,15 @@
 
 /* Laptops and desktops */
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media only screen and (min-width: 1024px){
 =======
 @media only screen and (min-device-width: 1024px){
 
 >>>>>>> origin/master
+=======
+@media only screen and (min-device-width: 1024px){
+>>>>>>> parent of ba7b76b... content and css changes
 	header,
 	nav,
 	main,
